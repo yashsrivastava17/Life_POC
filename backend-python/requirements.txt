@@ -1,0 +1,7 @@
+# Python dependencies for the backend microservice
+fastapi==0.95.0         # or flask==2.2.2
+uvicorn==0.22.0
+whisper
+numpy
+pydantic
+# Additional libraries for speaker identification and NLP
