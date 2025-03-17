@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Any global overrides */
+body {
+  font-family: Arial, sans-serif;
+}

@@ -1,10 +1,26 @@
 {
   "name": "frontend-react",
   "version": "1.0.0",
-  "description": "",
-  "main": "tailwind.config.js",
+  "private": true,
+  "description": "Frontend for Beads Audio Lite using React and Vite",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.8.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.2",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^3.0.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "vite": "^4.0.0"
   },
   "keywords": [],
   "author": "",
