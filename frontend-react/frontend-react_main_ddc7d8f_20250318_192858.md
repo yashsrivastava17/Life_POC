@@ -1,7 +1,7 @@
 # Code Extractor Output
-Timestamp: 2025-03-17_14-20-21
+Timestamp: 2025-03-18_19-29-02
 Git branch: main
-Git commit: b1d3298
+Git commit: ddc7d8f
 
 ## Files included:
 
@@ -32,7 +32,7 @@ Git commit: b1d3298
 
 ```
 
-[Error reading file: 'utf-8' codec can't decode byte 0x80 in position 3131: invalid start byte]
+[Error reading file: 'utf-8' codec can't decode byte 0xff in position 1080: invalid start byte]
 ```
 
 ### index.html
